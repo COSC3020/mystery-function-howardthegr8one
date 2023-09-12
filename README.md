@@ -12,3 +12,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
+My Answer:
+    The mystery function takes a string, if the string is only a single character that character will be returned, otherwise the function will recursively slice off the first character of the string until only a single character is left, and then return that. In the case of a single character string, that character is returned. If the string argument is greater than one character, then the last character will be returned.
